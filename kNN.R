@@ -1,5 +1,4 @@
 rm(list=ls())
-###what if distance is 0 for two distint obs
 Data=matrix(ncol=4,nrow=5);colnames(Data)=c("Fruit","Size","Taste","Seed");Data[,1]=c("Mango","Apple","Watermelon","Orange","Grape");obs=Data[,1]
 Data[,2]=c("M","M","L","M","S");Data[,3]=c("Sweet","Sweet","Sweet","Sour","Sour");Data[,4]=c(1,2,2,2,0)
 Data
